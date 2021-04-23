@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "Arch/*": ["src/app/arch/*"],
+      "App/*": ["src/app/*"],
+      "Domain/*": ["src/domain/*"],
+      "Modules/*": ["src/app/modules/*"],
+      "Assets/*": ["src/assets/*"],
+      "Locales/*": ["src/locales/*"],
+      "@test/*": ["tests/unit/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
